@@ -1,0 +1,251 @@
+input {
+    border-style: hidden;
+    background-color: rgba(238, 238, 238, 0);
+    border-radius: 10px;
+    width: 290px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.whiteroundedbox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 620px;
+    height: 450px;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bluebuttonbox {
+    background-color: #3262DC;
+    border-radius: 10px;
+    padding: 0px;
+    width: 300px;
+    height: 75px;
+    margin: auto;
+    position: absolute;
+}
+
+.textinputfield {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 0px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+}
+
+#taskrlogo {
+    width: 239px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.wt1 {
+    color: white;
+    text-align: center;
+    font-size:30px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+.gt1 {
+    color: #969696;
+    text-align: center;
+    font-size:20px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #f3f3f3;
+    color: gray;
+    border-radius: 10px;
+    padding: 0px;
+    padding-left: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+} 
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    height: 50px;
+    width: 300px;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50px;
+    border-radius: 10px;
+}
+  
+  /* Links inside the dropdown */
+  .dropdown-content p {
+    color: gray;
+    text-align: left;
+    font-size:20px;
+    padding: 12px 16px;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content p:hover {background-color: #969696;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #dfdfdf}
+
+#name {
+    top: -280px;
+    left: -320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#email {
+    top: -160px;
+    left: -320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#address {
+    top: -40px;
+    left: -320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#pb {
+    top: 80px;
+    left: -320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#pb2 {
+    top: 200px;
+    left: -320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#country {
+    top: 20px;
+    left: 340px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#zipcode {
+    top: -280px;
+    left: 320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#sex {
+    top: -160px;
+    left: 320px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#language {
+    top: 200px;
+    left: 340px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#biodesc {
+    top: 130px;
+    left: 320px;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;
+    height: 100px;
+}
+
+#biodescinput {
+    width: 300px;
+    height: 100px;
+    outline: none;
+    border-style: hidden;
+    background-color: rgba(238, 238, 238, 0);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+    resize: none;
+}
+
+#registerbox {
+    top: 380px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#registertext {
+    margin-top: 16px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A1A1A1; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}

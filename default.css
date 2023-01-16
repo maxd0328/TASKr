@@ -1,0 +1,181 @@
+input {
+    border-style: hidden;
+    background-color: rgba(238, 238, 238, 0);
+    border-radius: 10px;
+    width: 290px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.whiteroundedbox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 370px;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bluebuttonbox {
+    background-color: #3262DC;
+    border-radius: 10px;
+    padding: 0px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+}
+
+.textinputfield {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 0px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+}
+
+#registertext {
+    margin: 16px 0px 0px 0px;
+}
+
+#ortext {
+    margin: 95px 0px 0px 0px;
+}
+
+#enteremailtext {
+    margin: 0px 0px 0px 0px;
+    font-size:25px;
+}
+
+#forgotpassbox {
+    width: 350px;
+    height: 200px;
+}
+
+#resetpassbox {
+    width: 350px;
+    height: 250px;
+}
+
+#forgortext {
+    position: absolute;
+    top: 365px;
+    left: 90px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#registerbox {
+    top: -290px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 75px;
+}
+
+#emailbox {
+    top: -40px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#emailbox2 {
+    top: -50px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#confirmationbox {
+    top: 110px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 60px;
+}
+
+#rspb {
+    top: 180px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 60px;
+}
+
+#passwordbox {
+    top: 90px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#loginbox {
+    top: 250px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 60px;
+}
+
+#logintext {
+    margin: 7px 0px 0px 0px;
+}
+
+#psb2 {
+    top: -100px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#psb3 {
+    top: 20px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.wt1 {
+    color: white;
+    text-align: center;
+    font-size:30px;
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+.gt1 {
+    color: #969696;
+    text-align: center;
+    font-size:20px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+#taskrlogo {
+    width: 239px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: -600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

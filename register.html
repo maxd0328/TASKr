@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="register.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="whiteroundedbox">
+            <div class="textinputfield" id="username"> 
+                <input type="text" required placeholder="Username">
+                </input>
+            </div>
+            <div class="textinputfield" id="name"> 
+                <input type="text" required placeholder="Name">
+                </input>
+            </div>
+            <div class="textinputfield" id="email"> 
+                <input type="email"
+                       pattern=".+@+.+.com" required placeholder="Email">
+                </input>
+            </div>
+            <div class="textinputfield" id="address"> 
+                <input type="text" required placeholder="Address">
+                </input>
+            </div>
+            <div class="textinputfield" id="pb"> 
+                <input type="password"
+                    required placeholder="Password">
+                </input>
+            </div>
+            <div class="textinputfield" id="pb2"> 
+                <input type="password"
+                    required placeholder="Confirm Password">
+                </input>
+            </div>
+            <div class="dropdown" id="country">
+                <button class="dropbtn">Country</button>
+                <div class="dropdown-content">
+                  <p> Albania </p>
+                  <p> International brussels airlines </p>
+                  <p> Reddit </p>
+                </div>
+              </div>
+            <div class="textinputfield" id="zipcode"> 
+                <input type="text"
+                    required placeholder="Zip Code">
+                </input>
+            </div>
+            <div class="textinputfield" id="sex"> 
+                <input type="text"
+                    required placeholder="Sex">
+                </input>
+            </div>
+            <div class="dropdown" id="language">
+                <button class="dropbtn">Language</button>
+                <div class="dropdown-content">
+                  <p> Albanian </p>
+                  <p> Strongly Disagree </p>
+                  <p> Business meeting on Friday 12/06/2025 </p>
+                </div>
+              </div>
+            <div class="textinputfield" id="biodesc"> 
+                <textarea id="biodescinput" placeholder="Bio/Description" required></textarea>
+            </div>
+            <a href="file:dashboard.html">
+                <div class="bluebuttonbox" id="registerbox"> 
+                    <p class="wt1" id="registertext"> Register </p>
+                </div>
+            </a>
+        </div>
+        <div id="taskrlogo">
+            <img src="TASKr.png" alt="TASKr logo" width="239" height="200">
+        </div>
+    </body>
+</html>
